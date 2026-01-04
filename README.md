@@ -1,3 +1,99 @@
+# Weekly Planner 🖤🌸
+
+A thoughtfully designed **dual‑theme weekly planner** that blends productivity with emotional intelligence. Built to help you plan, reflect, and stay motivated—without guilt.
+
+---
+
+## ✨ What Makes It Different
+
+Most planners track tasks. This one understands **effort**.
+
+* 🌸 **Soft Theme** — gentle reflection with *Anya’s Remarks*
+* 🖤 **Dark Theme** — focused resolve with *Luffy’s Resolve*
+* Context‑aware encouragement (not pressure)
+* Intentional silence when it matters
+
+---
+
+## 🚀 Features
+
+### 🗓️ Planning
+
+* Weekly planning (multiple weeks)
+* Flexible scheduling with **custom start & end times**
+* 12‑hour time display
+* Priority tags (High / Medium / Low)
+
+### 📊 Progress Tracking
+
+* Daily completion tracking
+* Weekly summary
+* Monthly progress graph (theme‑aware colors)
+* Goal completion streaks
+
+### 🎭 Companion System
+
+**Soft Theme — Anya**
+
+* Daily emotional companion
+* Expression + remarks change based on progress
+* Reflection space for journaling
+
+**Dark Theme — Luffy**
+
+* Appears when effort exists
+* Encourages persistence on tough weeks
+* Mentor mode when monthly progress is low
+
+---
+
+## 🛠️ Tech Stack
+
+* **React** (Create React App)
+* CSS (theme variables)
+* LocalStorage (persistent data)
+* Vercel (deployment)
+
+---
+
+## ▶️ Run Locally
+
+```bash
+npm install
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🌐 Live Demo
+
+Deployed on **Vercel**. Updates automatically on every GitHub push.
+
+---
+
+## 🧠 Design Philosophy
+
+* Progress over perfection
+* Motivation without shame
+* Emotion‑aware productivity
+
+---
+
+## 📌 Future Enhancements
+
+* Calendar export / sync
+* Mobile‑first polish
+* Saved reflections history
+* Subtle companion animations
+
+---
+
+Built with care 🖤🌸
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
