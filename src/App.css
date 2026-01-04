@@ -178,3 +178,30 @@ input[type="time"] {
   color: var(--text);
 }
 
+@media (max-width: 768px) {
+  .app {
+    padding: 12px;
+  }
+
+  .card {
+    margin-bottom: 16px;
+  }
+
+  .anya-remarks,
+  .luffy-remarks {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .anya-remarks-img,
+  .luffy-img {
+    width: 90px;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    font-size: 14px;
+  }
+}
