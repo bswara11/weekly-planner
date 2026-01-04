@@ -70,6 +70,8 @@ Open [http://localhost:3000](http://localhost:3000)
 ## 🌐 Live Demo
 
 Deployed on **Vercel**. Updates automatically on every GitHub push.
+https://weekly-planner.vercel.app
+https://vercel.com/swara-bs-projects/weekly-planner/3qbNDLeAzWSrnBoUqQ9yLSppDCei
 
 ---
 
