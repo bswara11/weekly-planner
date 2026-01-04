@@ -1,38 +1,180 @@
-.App {
-  text-align: center;
-}
+/* ===== THEME TOKENS ===== */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.app {
   min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* 🖤 Dark Academia × Tech Baddie */
+.app.dark {
+  --bg: #4b0101;
+  --card: #f0c2cd;
+  --text: #6a4848;
+  --accent: #8a3d3d;
+  --border: #390707;
+
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+/* 🌸 Soft Aesthetic Girl */
+.app.soft {
+  --bg: #faf7f2;
+  --card: #ffffff;
+  --text: #3b3b3b;
+  --accent: #d9a5b3;
+  --border: #e8ded5;
+
+  font-family: "Quicksand", "Arial", sans-serif;
+}
+
+/* ===== BASIC ELEMENT STYLING ===== */
+
+h1, h2, h3 {
+  color: var(--accent);
+}
+
+button {
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+select, input {
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  margin-right: 6px;
+  padding: 4px 6px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 16px 0;
+}
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+/* Dark theme = sharper */
+.app.dark .card {
+  border-radius: 10px;
+}
+
+/* Soft theme = cuter */
+.app.soft .card {
+  border-radius: 20px;
+}
+.anya {
+  position: absolute;
+  right: 32px;
+  bottom: 32px;
+  width: 180px;          /* 👈 bigger */
+  max-width: 40vw;      /* responsive safety */
+  opacity: 0.95;
+  pointer-events: none;
+  user-select: none;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Soft theme: cozy presence */
+.app.soft .anya {
+  transform: rotate(-2deg);
+}
+
+/* Dark theme (later, for Luffy) */
+.app.dark .anya {
+  transform: rotate(0deg);
+}
+
+.anya-inline {
+  width: 90px;
+  margin-left: 12px;
+  opacity: 0.95;
+  pointer-events: none;
+  user-select: none;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Soft theme = cozy tilt */
+.app.soft .anya-inline {
+  transform: rotate(-4deg);
+}
+
+.anya-remarks {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 16px;
+  margin-bottom: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.anya-remarks-img {
+  width: 110px;
+  flex-shrink: 0;
+  opacity: 0.95;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.anya-text {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: var(--text);
+  opacity: 0.85;
 }
+
+.anya-notes {
+  width: 100%;
+  height: 90px;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px dashed var(--border);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.luffy-remarks {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.luffy-img {
+  width: 120px;
+  opacity: 0.95;
+  filter: none;          /* 🎯 keep full color */
+}
+
+.luffy-text {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: var(--text);
+  opacity: 0.85;
+}
+.app.soft .card {
+  transition: background 0.3s ease;
+}
+
+.app.soft .mentor {
+  background: rgba(255, 255, 255, 0.9);
+}
+.luffy-silent {
+  font-size: 1rem;
+  opacity: 0.5;
+  letter-spacing: 2px;
+  margin-top: 12px;
+  color: var(--text);
+}
+input[type="time"] {
+  padding: 6px 8px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+}
+
