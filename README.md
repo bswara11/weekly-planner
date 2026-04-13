@@ -4,19 +4,6 @@ A thoughtfully designed **dual‑theme weekly planner** that blends productivity
 
 ---
 
-## ✨ What Makes It Different
-
-Most planners track tasks. This one understands **effort**.
-
-* 🌸 **Soft Theme** — gentle reflection with *Anya’s Remarks*
-* 🖤 **Dark Theme** — focused resolve with *Luffy’s Resolve*
-* Context‑aware encouragement (not pressure)
-* Intentional silence when it matters
-
----
-
-## 🚀 Features
-
 ### 🗓️ Planning
 
 * Weekly planning (multiple weeks)
@@ -33,15 +20,13 @@ Most planners track tasks. This one understands **effort**.
 
 ### 🎭 Companion System
 
-**Soft Theme — Anya**
+**Soft Theme **
 
 * Daily emotional companion
-* Expression + remarks change based on progress
 * Reflection space for journaling
 
-**Dark Theme — Luffy**
+**Dark Theme **
 
-* Appears when effort exists
 * Encourages persistence on tough weeks
 * Mentor mode when monthly progress is low
 
